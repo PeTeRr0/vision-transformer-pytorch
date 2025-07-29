@@ -71,6 +71,8 @@ Train loss, test loss and accuracy of the model during training.
 
 The model achieves 55.0% accuracy on the test set after 10 epochs of training.
 
+Other versions uploaded in the Version folder
+
 ## Reference
 [Google's repository for the ViT model](https://github.com/google-research/vision_transformer), [Yannic Kilcher's video](https://www.youtube.com/watch?v=TrdevFK_am4&t=1125s), [Implementing Vision Transformer (ViT) from Scratch](https://medium.com/data-science/implementing-vision-transformer-vit-from-scratch-3e192c6155f0), [Original code](https://github.com/tintn/vision-transformer-from-scratch)
 
