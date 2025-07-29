@@ -10,7 +10,7 @@ Equation (2) applies Layer Norm to the previous layer’s token embeddings, 
 Equation (3) applies Layer Norm to the attention output, passes the result through the feed‑forward MLP, and then adds the original attention output back via a residual connection.
 Equation (4) applies a final Layer Norm to the class token’s embedding output from the last encoder block, yielding 𝑦, which serves as the input for the subsequent classification head.
 ![figure3](assets/figure3.png)
-Ensure ViT has 12 layers in base model
+Ensure ViT model has at least 12 layers and 768 hidden size
 ![figure4](assets/figure4.png)
 
 ## Parameters
